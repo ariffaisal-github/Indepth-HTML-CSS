@@ -13,9 +13,13 @@ h3 {
   margin-left: 30px;
 }
 
-span {
-  color: blueviolet;
-  font-size: 50px;
+div > div > p {
+  background-color: aqua;
+}
+
+div > p {
+  background-color: black;
+  color: beige;
 }
 
 p {
