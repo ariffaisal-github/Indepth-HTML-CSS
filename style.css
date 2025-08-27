@@ -18,11 +18,16 @@ div > div > p {
 }
 
 div > p {
+  /*Child selector --- Must be direct child*/
   background-color: black;
-  color: beige;
+  color: blue;
+}
+div p {
+  /*Descendant selector --- Can be direct or nested*/
+  background-color: blueviolet;
 }
 
 p {
   color: red;
-  font-size: 45px;
+  font-size: 35px;
 }
