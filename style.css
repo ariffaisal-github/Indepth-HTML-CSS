@@ -31,3 +31,19 @@ p {
   color: red;
   font-size: 35px;
 }
+
+/**** Pseudo Selectors ***/
+.btn:active {
+  color: aqua;
+}
+.btn {
+  background-color: cadetblue;
+  font-size: 40px;
+  margin: 20px;
+  padding: 8px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn:hover {
+  font-size: 41px;
+}
