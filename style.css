@@ -1,3 +1,18 @@
+* {
+  /*universal selector*/
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  /*Group Selector*/
+  color: blue;
+  font-size: large;
+  margin-left: 30px;
+}
+
 span {
   color: blueviolet;
   font-size: 50px;
