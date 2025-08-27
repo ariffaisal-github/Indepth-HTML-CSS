@@ -47,3 +47,11 @@ p {
 .btn:hover {
   font-size: 41px;
 }
+
+/* n-th child pseudo selector */
+#myDiv > :nth-child(2) {
+  /*or first-child or last-child*/
+  color: brown;
+  border: 2px solid red;
+  padding: 5px;
+}
