@@ -4,12 +4,15 @@
   padding: 0;
 }
 
+html,
 body {
-  background-image: url(./spectrum-flashes-coloured-light_23-2151792456.avif);
+  height: 100%;
+  /* background-image: url(./spectrum-flashes-coloured-light_23-2151792456.avif);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 
-  /* background: linear-gradient(to right, red, blue); */
+  /* background: linear-gradient(45deg, black, yellow); */
+  background: conic-gradient(red, yellow, green, blue, red);
 }
 
 h1,
