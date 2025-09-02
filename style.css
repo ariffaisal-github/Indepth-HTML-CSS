@@ -15,6 +15,15 @@ body {
   /* background: conic-gradient(red, yellow, green, blue, red); */
 }
 
+.CheckVisibility > #firstVis {
+  background-color: lightblue;
+  visibility: hidden;
+}
+
+.CheckDisplayNone > #firstDis {
+  display: none;
+}
+
 h1,
 h2,
 h3 {
