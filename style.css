@@ -11,7 +11,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover; */
 
-  /* background: linear-gradient(45deg, black, yellow); */
+  background: linear-gradient(45deg, black, yellow); 
   /* background: conic-gradient(red, yellow, green, blue, red); */
 }
 
