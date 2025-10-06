@@ -1,5 +1,6 @@
-// بسم الله الرحمن الرحيم
-
+/*
+  بسم الله الرحمن الرحيم
+*/
 // Fast Input
 const fs = require("fs");
 const input = fs.readFileSync(0, "utf8").trim().split(/\s+/);
